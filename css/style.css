@@ -1,0 +1,88 @@
+/* ************************************************* */
+/* NAVIGATION SECTION */
+/* ************************************************* */
+
+.main-header {
+  max-width: 100%;
+}
+
+.main-nav-list {
+  background-color: #fa5252;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.img-logo {
+  justify-items: start;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+.main-nav-list-items:link,
+.main-nav-list-items:visited {
+  text-decoration: none;
+  color: #212529;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+
+.main-nav-list-items:hover,
+.main-nav-list-items:active {
+  color: #111315;
+}
+
+/* ************************************************* */
+/* MAIN SECTION */
+/* ************************************************* */
+
+.main-section {
+  background-color: #fa5252;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  position: relative;
+}
+
+.rengoku-quote {
+  font-size: 2.9rem;
+  font-family: "Rubik", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  padding: 11rem;
+  color: #221816;
+  line-height: 1.5;
+}
+
+.rengoku-img {
+  width: 100%;
+  height: auto;
+}
+
+/* ************************************************* */
+/* CARD SECTION */
+/* ************************************************* */
+
+.card-section {
+  display: grid;
+  justify-content: center;
+  height: 40rem;
+  width: 75rem;
+  background: linear-gradient(-20deg, #fffc00, #ffffff);
+  color: #3b3b3b;
+  top: 22%;
+  left: 4%;
+  position: absolute;
+  border-radius: 1%;
+  font-family: "Rubik", sans-serif;
+  box-shadow: 7px 12px 5px 2px rgb(0 0 0 / 15%);
+  z-index: 2;
+}
